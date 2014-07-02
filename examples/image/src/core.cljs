@@ -4,11 +4,11 @@
   (:require [om.core :as om :include-macros true]
             [om.dom :as dom :include-macros true]))
 
-(def style {:padding "0px"
-            :margin "0px"
-            :display "block"
-            :width "472px"
-            :height "396px"})
+(def style #js {:padding "0px"
+                :margin "0px"
+                :display "block"
+                :width "472px"
+                :height "396px"})
 
 (defn show-image
   [cursor owner]
