@@ -32,5 +32,11 @@
                                    :output-dir "examples/image/js"
                                    :source-map true
                                    :optimizations :none}}
+                       {:id "fittedimage"
+                        :source-paths ["examples/fittedimage/src"]
+                        :compiler {:output-to "examples/fittedimage/js/fittedimage.js"
+                                   :output-dir "examples/fittedimage/js"
+                                   :source-map true
+                                   :optimizations :none}}
 
                        ]})
