@@ -27,6 +27,13 @@ Then, open your web-browser (any should be fine but Chrome has some nice
 development features for source-maps) to the index.html page inside the
 corresponding example directory.
 
+# Photo Credits
+
+Image "rocks.jpg" is by Diego Delso. Photo obtained from Wikimedia commons
+[here](http://commons.wikimedia.org/wiki/Main_page#mediaviewer/File:Prismas_Bas%C3%A1lticos,_Huasca_de_Ocampo,_Hidalgo,_M%C3%A9xico,_2013-10-10,_DD_10.JPG).
+
+------------------------------------------------------------
+
 Copyright © 2014 Michael Patrick O'Keefe
 
 Distributed under the Eclipse Public License either version 1.0 or (at
