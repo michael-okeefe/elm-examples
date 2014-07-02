@@ -15,8 +15,8 @@ directory, type:
     > lein cljsbuild once <example-name>
 
 Then, open your web-browser (any should be fine but Chrome has some nice
-development features for source-maps) to the index.html page inside the example
-directory.
+development features for source-maps) to the index.html page inside the
+corresponding example directory.
 
 Copyright © 2014 Michael Patrick O'Keefe
 
