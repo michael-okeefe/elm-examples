@@ -19,4 +19,12 @@
                         :compiler {:output-to "examples/helloworld/js/helloworld.js"
                                    :output-dir "examples/helloworld/js"
                                    :source-map true
-                                   :optimizations :none}}]})
+                                   :optimizations :none}}
+                      {:id "markdown"
+                        :source-paths ["examples/markdown/src"]
+                        :compiler {:output-to "examples/markdown/js/markdown.js"
+                                   :output-dir "examples/markdown/js"
+                                   :source-map true
+                                   :optimizations :none}}
+
+                       ]})
