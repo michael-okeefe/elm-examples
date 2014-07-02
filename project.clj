@@ -13,4 +13,10 @@
                         :compiler {:output-to "examples/textfield/js/textfield.js"
                                    :output-dir "examples/textfield/js"
                                    :source-map true
+                                   :optimizations :none}}
+                      {:id "helloworld"
+                        :source-paths ["examples/helloworld/src"]
+                        :compiler {:output-to "examples/helloworld/js/helloworld.js"
+                                   :output-dir "examples/helloworld/js"
+                                   :source-map true
                                    :optimizations :none}}]})
