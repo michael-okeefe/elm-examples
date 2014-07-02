@@ -14,13 +14,13 @@
                                    :output-dir "examples/textfield/js"
                                    :source-map true
                                    :optimizations :none}}
-                      {:id "helloworld"
+                       {:id "helloworld"
                         :source-paths ["examples/helloworld/src"]
                         :compiler {:output-to "examples/helloworld/js/helloworld.js"
                                    :output-dir "examples/helloworld/js"
                                    :source-map true
                                    :optimizations :none}}
-                      {:id "markdown"
+                       {:id "markdown"
                         :source-paths ["examples/markdown/src"]
                         :compiler {:output-to "examples/markdown/js/markdown.js"
                                    :output-dir "examples/markdown/js"
