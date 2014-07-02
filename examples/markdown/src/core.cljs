@@ -9,7 +9,9 @@
 ;; pull request. The objective of this project in porting Elm code to Om is to
 ;; explore "how to get more or less the same output on the screen as each Elm
 ;; program" so in this exercise I literally translate Markdown into React/dom
-;; elements by hand.
+;; elements by hand. Note below that markdown-comp is a function that must
+;; return an instance of om/IRender or om/IRenderState. dom/div does this for
+;; us.
 (defn markdown-comp
   [cursor owner]
   (dom/div nil
