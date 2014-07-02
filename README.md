@@ -7,6 +7,15 @@ decided to begin porting [examples](http://elm-lang.org/Examples.elm) from the
 language for interactive applications and already sports some very impressive
 demos.
 
+Note that the objective is not to use the same techniques as Elm, but instead
+to show how the same content and behavior associated with each Elm example can
+be rendered to the screen. This is a necessary deviation as Elm works quite
+differently than Om and Om is new enough that we do not yet have enough
+available libraries for drop-in replacement (for example, there currently are
+no Markdown-to-React-DOM-element libraries). Therefore, each example
+demonstrates how to use ClojureScript and Om to "get more or less the same
+content and behavior on-screen as shown in each Elm example program."
+
 ## Usage
 
 To run each demo, download this project to your desktop and, from within the top
