@@ -1,0 +1,16 @@
+(defproject elm-examples "0.0.1"
+  :description "Examples from the Elm language ported to ClojureScript/Om"
+  :url "https://github.com/michael-okeefe/elm-examples"
+  :license {:name "Eclipse"
+            :url "http://www.eclipse.org/legal/epl-v10.html"}
+  :dependencies [[org.clojure/clojure "1.6.0"]
+                 [org.clojure/clojurescript "0.0-2234"]
+                 [org.clojure/core.async "0.1.303.0-886421-alpha"]
+                 [om "0.6.4"]]
+  :plugins [[lein-cljsbuild "1.0.3"]]
+  :cljsbuild {:builds [{:id "textfield"
+                        :source-paths ["examples/textfield/src"]
+                        :compiler {:output-to "examples/textfield/js/textfield.js"
+                                   :output-dir "examples/textfield/js"
+                                   :source-map true
+                                   :optimizations :none}}]})
