@@ -26,5 +26,11 @@
                                    :output-dir "examples/markdown/js"
                                    :source-map true
                                    :optimizations :none}}
+                       {:id "image"
+                        :source-paths ["examples/image/src"]
+                        :compiler {:output-to "examples/image/js/image.js"
+                                   :output-dir "examples/image/js"
+                                   :source-map true
+                                   :optimizations :none}}
 
                        ]})
