@@ -68,5 +68,11 @@
                                    :output-dir "examples/typeface/js"
                                    :source-map true
                                    :optimizations :none}}
+                       {:id "flowdown1a"
+                        :source-paths ["examples/flowdown1a/src"]
+                        :compiler {:output-to "examples/flowdown1a/js/flowdown1a.js"
+                                   :output-dir "examples/flowdown1a/js"
+                                   :source-map true
+                                   :optimizations :none}}
 
                        ]})
