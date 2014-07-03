@@ -80,5 +80,11 @@
                                    :output-dir "examples/layers/js"
                                    :source-map true
                                    :optimizations :none}}
+                       {:id "position"
+                        :source-paths ["examples/position/src"]
+                        :compiler {:output-to "examples/position/js/position.js"
+                                   :output-dir "examples/position/js"
+                                   :source-map true
+                                   :optimizations :none}}
 
                        ]})
