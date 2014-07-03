@@ -4,10 +4,7 @@
   (:require [om.core :as om :include-macros true]
             [om.dom :as dom :include-macros true]))
 
-;; Note: this, along with many of the other 'visual' examples just places the
-;; content on the webpage. A more sophisticated example would need to take into
-;; account the text width and keep it dynamically centered.
-;; using some information also from here:
+;; Note: centering from here:
 ;; http://css-tricks.com/centering-in-the-unknown/
 (defn <fn>
   [cursor owner]
