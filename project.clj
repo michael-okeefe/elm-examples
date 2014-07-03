@@ -86,5 +86,11 @@
                                    :output-dir "examples/position/js"
                                    :source-map true
                                    :optimizations :none}}
+                       {:id "spacer"
+                        :source-paths ["examples/spacer/src"]
+                        :compiler {:output-to "examples/spacer/js/spacer.js"
+                                   :output-dir "examples/spacer/js"
+                                   :source-map true
+                                   :optimizations :none}}
 
                        ]})
