@@ -62,5 +62,11 @@
                                    :output-dir "examples/text/js"
                                    :source-map true
                                    :optimizations :none}}
+                       {:id "typeface"
+                        :source-paths ["examples/typeface/src"]
+                        :compiler {:output-to "examples/typeface/js/typeface.js"
+                                   :output-dir "examples/typeface/js"
+                                   :source-map true
+                                   :optimizations :none}}
 
                        ]})
