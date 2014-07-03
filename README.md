@@ -27,6 +27,21 @@ Then, open your web-browser (any should be fine but Chrome has some nice
 development features for source-maps) to the index.html page inside the
 corresponding example directory.
 
+To add a new example:
+
+    > lein repl
+    ...
+    user=> (require '[example.mknew :refer [new-example]])
+    user=> (let [example-name "newexample"
+                 title "My New Example"]
+             (new-example example-name title))
+
+This will create a new directory user `examples/<newexample>` pre-populated with
+some template files for creating new examples. Edit the
+`examples/<newexample>/src/core.cljs` file to begin creating your new example.
+You may on occasion need to edit the index.html as well (to add new structure or
+for adding static CSS).
+
 # Photo Credits
 
 Image "rocks.jpg" is by Diego Delso. Photo obtained from Wikimedia commons
