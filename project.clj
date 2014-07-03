@@ -92,5 +92,11 @@
                                    :output-dir "examples/spacer/js"
                                    :source-map true
                                    :optimizations :none}}
+                       {:id "lines"
+                        :source-paths ["examples/lines/src"]
+                        :compiler {:output-to "examples/lines/js/lines.js"
+                                   :output-dir "examples/lines/js"
+                                   :source-map true
+                                   :optimizations :none}}
 
                        ]})
