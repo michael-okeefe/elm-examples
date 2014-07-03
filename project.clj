@@ -44,5 +44,11 @@
                                    :output-dir "examples/croppedimage/js"
                                    :source-map true
                                    :optimizations :none}}
+                       {:id "size"
+                        :source-paths ["examples/size/src"]
+                        :compiler {:output-to "examples/size/js/size.js"
+                                   :output-dir "examples/size/js"
+                                   :source-map true
+                                   :optimizations :none}}
 
                        ]})
