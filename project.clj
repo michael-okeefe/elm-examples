@@ -50,5 +50,11 @@
                                    :output-dir "examples/size/js"
                                    :source-map true
                                    :optimizations :none}}
+                       {:id "opacity"
+                        :source-paths ["examples/opacity/src"]
+                        :compiler {:output-to "examples/opacity/js/opacity.js"
+                                   :output-dir "examples/opacity/js"
+                                   :source-map true
+                                   :optimizations :none}}
 
                        ]})
