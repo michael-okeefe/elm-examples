@@ -56,5 +56,11 @@
                                    :output-dir "examples/opacity/js"
                                    :source-map true
                                    :optimizations :none}}
+                       {:id "text"
+                        :source-paths ["examples/text/src"]
+                        :compiler {:output-to "examples/text/js/text.js"
+                                   :output-dir "examples/text/js"
+                                   :source-map true
+                                   :optimizations :none}}
 
                        ]})
