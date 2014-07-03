@@ -32,6 +32,8 @@ corresponding example directory.
 Image "rocks.jpg" is by Diego Delso. Photo obtained from Wikimedia commons
 [here](http://commons.wikimedia.org/wiki/Main_page#mediaviewer/File:Prismas_Bas%C3%A1lticos,_Huasca_de_Ocampo,_Hidalgo,_M%C3%A9xico,_2013-10-10,_DD_10.JPG).
 
+Image "waves.jpg" is by [Thomas Shahan](https://www.flickr.com/people/49580580@N02) and available via Wikimedia commons [here](http://commons.wikimedia.org/wiki/Category:Oceans#mediaviewer/File:Kiwanda_Waves_Crashing_(8401374834).jpg).
+
 ------------------------------------------------------------
 
 Copyright © 2014 Michael Patrick O'Keefe

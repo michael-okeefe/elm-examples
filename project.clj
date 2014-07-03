@@ -74,5 +74,11 @@
                                    :output-dir "examples/flowdown1a/js"
                                    :source-map true
                                    :optimizations :none}}
+                       {:id "layers"
+                        :source-paths ["examples/layers/src"]
+                        :compiler {:output-to "examples/layers/js/layers.js"
+                                   :output-dir "examples/layers/js"
+                                   :source-map true
+                                   :optimizations :none}}
 
                        ]})
