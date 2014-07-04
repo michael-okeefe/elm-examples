@@ -42,6 +42,10 @@ some template files for creating new examples. Edit the
 You may on occasion need to edit the index.html as well (to add new structure or
 for adding static CSS).
 
+Note: you will also want to add a new ClojureScript build setup for your example
+under project.clj. This is easily done by adding the name of your new example
+(as a string) to the vector in the `examples` function.
+
 # Photo Credits
 
 Image "rocks.jpg" is by Diego Delso. Photo obtained from Wikimedia commons
