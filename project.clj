@@ -20,7 +20,7 @@
           "size" "opacity" "text" "typeface"
           "flowdown1a" "layers" "position"
           "spacer" "lines" "shapes" "toform"
-          "transforms"]))
+          "transforms" "color"]))
 
 (defproject elm-examples "0.0.1"
   :description "Examples from the Elm language ported to ClojureScript/Om"
